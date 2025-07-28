@@ -20,22 +20,53 @@ It focuses on applying **classical machine learning techniques** to the [CIFAR-1
 ## 📁 Project Structure
 
 ```
-cifar10-ml-final-project/
-├── run_all.py               # Main entry point
-├── requirements.txt         # Required Python packages
-├── README.md                # This file
+Cifar10-ML-Final-Project/
 │
-├── models/                  # Classical ML model training
-│   └── train_classical_models.py
+├── data/                          # (Optional) Place to store raw or preprocessed data manually
 │
-├── preprocess/              # Feature extraction modules
-│   └── extract_features.py  # HOG + PCA
+├── models/                        # Machine learning and CNN model definitions
+│   ├── knn.py
+│   ├── svm.py
+│   ├── random_forest.py
+│   ├── logistic_regression.py
+│   └── cnn_baseline.py
 │
-├── utils/                   # Evaluation and helper scripts
-│   └── evaluation.py
+├── preprocessing/                 # Feature extraction and preprocessing utilities
+│   ├── hog.py
+│   ├── pca.py
+│   └── combine_features.py
 │
-├── report/                  # Results, plots, tuning logs (to be generated)
-└── data/                    # (Optional) Place to store dataset manually
+├── evaluation/                    # Metrics, confusion matrices, summary evaluators
+│   ├── metrics.py
+│   ├── confusion_analysis.py
+│   └── model_summary.py
+│
+├── tuning/                        # Hyperparameter tuning scripts and plots
+│   ├── tune_knn.py
+│   ├── tune_svm.py
+│   ├── tune_rf.py
+│   └── tune_logreg.py
+│
+├── plots/                         # Generated plots for report (confusion matrices, tuning, etc.)
+│   └── *.png
+│
+├── report/                        # Final LaTeX report and compiled PDF
+│   ├── main.tex
+│   ├── raw_results_table.tex
+│   ├── pca_results_table.tex
+│   ├── hog_pca_results_table.tex
+│   ├── cnn_results_table.tex
+│   ├── model_summary_table.tex
+│   ├── tuning_knn_plot.png
+│   ├── tuning_svm_plot.png
+│   ├── tuning_rf_plot.png
+│   ├── tuning_logreg_plot.png
+│   └── ML_Project_Report.pdf
+│
+├── main.py                        # Main script to run the full pipeline
+├── requirements.txt               # All required dependencies
+└── README.md                      # Project overview and instructions
+
 ```
 
 ---
