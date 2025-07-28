@@ -3,11 +3,11 @@
 This project is the final deliverable for a university Machine Learning course.  
 It focuses on applying **classical machine learning techniques** to the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) image classification dataset, along with a **CNN baseline** for performance comparison.
 
-> 📌 This project avoids relying on deep learning as a primary method and instead emphasizes classical ML pipelines, feature extraction, dimensionality reduction, and evaluation.
+>  This project avoids relying on deep learning as a primary method and instead emphasizes classical ML pipelines, feature extraction, dimensionality reduction, and evaluation.
 
 ---
 
-## 🔍 Project Goals
+##  Project Goals
 
 - Classify images in the CIFAR-10 dataset using machine learning.
 - Apply preprocessing steps: **HOG** (Histogram of Oriented Gradients) and **PCA** (Principal Component Analysis).
@@ -40,7 +40,7 @@ cifar10-ml-final-project/
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 You can install all dependencies via:
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 After installing requirements:
 
@@ -77,7 +77,7 @@ All results will be logged in the `report/` directory.
 
 ---
 
-## 📉 Dimensionality Reduction
+##  Dimensionality Reduction
 
 - **PCA** is used after HOG to reduce dimensionality.
 - `n_components=100` was chosen (explained in the report).
@@ -85,7 +85,7 @@ All results will be logged in the `report/` directory.
 
 ---
 
-## 🧪 Models & Evaluation
+##  Models & Evaluation
 
 Each classical model was evaluated using:
 - **Accuracy**, **Precision**, **Recall**, **F1 Score**
@@ -97,7 +97,7 @@ Additionally:
 
 ---
 
-## 📊 Project Outputs
+##  Project Outputs
 
 - Evaluation tables for all models (before/after PCA-HOG)
 - Comparison to CNN
@@ -124,7 +124,7 @@ The final report will include:
 
 ---
 
-## 📚 Credits
+##  Credits
 
 - CIFAR-10 dataset: [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html)
 - Instructor: *Professor Lee-Ad Gottlieb / School of Computer Science*
@@ -132,6 +132,6 @@ The final report will include:
 
 ---
 
-## 📬 Questions?
+##  Questions?
 
 Feel free to open an issue or contact [NevoBiton20](https://github.com/NevoBiton20).
