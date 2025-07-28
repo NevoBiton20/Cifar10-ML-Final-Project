@@ -1,8 +1,5 @@
-numpy
-matplotlib
-scikit-learn
-torch
-torchvision
-pandas
-scipy
-scikit-image
+
+__pycache__/
+*.pyc
+*.png
+*.pkl

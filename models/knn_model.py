@@ -1,3 +1,4 @@
+
 from sklearn.neighbors import KNeighborsClassifier
 
 def train_knn(X_train, y_train, n_neighbors=5):
