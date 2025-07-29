@@ -47,8 +47,8 @@ Cifar10-ML-Final-Project/
 │   ├── tune_rf.py
 │   └── tune_logreg.py
 │
-├── plots/                         # Generated plots for report (confusion matrices, tuning, etc.)
-│   └── *.png
+|
+│ 
 │
 ├── report/                        # Final LaTeX report and compiled PDF
 │   ├── main.tex
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 After installing requirements:
 
 ```bash
-python run_all.py
+python main.py
 ```
 
 This will:
