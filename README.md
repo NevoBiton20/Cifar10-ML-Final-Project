@@ -33,8 +33,7 @@ Cifar10-ML-Final-Project/
 │
 ├── preprocessing/                 # Feature extraction and preprocessing utilities
 │   ├── hog.py
-│   ├── pca.py
-│   └── combine_features.py
+│   └── pca.py
 │
 ├── evaluation/                    # Metrics, confusion matrices, summary evaluators
 │   ├── metrics.py
@@ -47,21 +46,16 @@ Cifar10-ML-Final-Project/
 │   ├── tune_rf.py
 │   └── tune_logreg.py
 │
-|
-│ 
-│
 ├── report/                        # Final LaTeX report and compiled PDF
 │   ├── main.tex
 │   ├── raw_results_table.tex
 │   ├── pca_results_table.tex
 │   ├── hog_pca_results_table.tex
 │   ├── cnn_results_table.tex
-│   ├── model_summary_table.tex
 │   ├── tuning_knn_plot.png
 │   ├── tuning_svm_plot.png
 │   ├── tuning_rf_plot.png
-│   ├── tuning_logreg_plot.png
-│   └── ML_Project_Report.pdf
+│   └── tuning_logreg_plot.png
 │
 ├── main.py                        # Main script to run the full pipeline
 ├── requirements.txt               # All required dependencies
